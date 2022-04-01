@@ -11626,10 +11626,73 @@ header .bw-box ul #en {
   font-weight: 600;
 }
 
-.footer-up {
+footer {
+  min-height: 200px;
+}
+footer .footer-up {
   width: 100%;
   height: 200px;
   background-image: url("img/footer-top.png");
+  padding-top: 200px;
+  padding-left: calc(50% - 70px);
+}
+footer .footer-down {
+  width: 100%;
+  min-height: 200px;
+  background-color: #AC3964;
+  padding-bottom: 77px;
+  margin-top: -1px;
+  display: flex;
+  color: white;
+}
+footer .footer-down .footer-down-box {
+  width: 18%;
+  margin-top: 200px;
+  margin-left: 70px;
+}
+footer .footer-down .footer-down-box h6, footer .footer-down .footer-down-box .h6 {
+  font-size: 16px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+footer .footer-down .footer-down-box h5, footer .footer-down .footer-down-box .h5 {
+  font-size: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+footer .footer-down .footer-down-box span {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.61);
+  margin-right: 20px;
+}
+footer .footer-down .footer-down-box span:hover {
+  color: white;
+  cursor: pointer;
+}
+footer .footer-down .footer-down-box:last-child {
+  width: 25%;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+footer .footer-down-down {
+  background-color: #AC3964;
+  width: 100%;
+  display: inline-block;
+  border-top: 0.3px solid white;
+  color: white;
+  font-size: 14px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+footer .footer-down-down .credit-card {
+  font-size: 30px;
+  float: right;
+  margin-right: 20px;
+}
+footer .footer-bw {
+  text-align: center;
+  background-color: #14142B;
+  height: 48px;
 }
 
 /*# sourceMappingURL=main.css.map */
